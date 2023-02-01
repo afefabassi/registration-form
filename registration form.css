@@ -1,0 +1,62 @@
+﻿body {
+    font-family: Rockwell;
+    background-image: url("back.jpg");
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+header{
+    text-align:center;
+    padding-top: 2px; 
+}
+p{
+    font-size: 1.5em;
+}
+fieldset {
+    border: 0;
+    border-bottom: 4px solid #3b3b4f;
+    padding-left: 0;
+    padding-right:5px;
+}
+fieldset:last-of-type {
+        border-bottom: none;
+    }
+form {
+    margin: auto;
+    width: 40%;
+    font-size: 20px;
+    
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+input, textarea, select {
+    display: block;
+    width: 100%;
+    margin: 2px 0 0 0;
+    border: 1px solid black;
+    height: 1.5em;
+    border-radius: 4px;
+}
+input[type="radio"] {
+    display: unset;
+    width: unset;
+    vertical-align: middle;
+}
+    input[type="submit"] {
+        width: 40%;
+        margin: auto;
+        height: 2em;
+        font-size: 20px;
+        background-color: #ffffff;
+        border: 2px solid #A8D4DF;
+    }
+input {
+    background-color: #ffffff;
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+}
